@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: auto;
+  font-family: "Roboto";
 }
 
 .header {
@@ -51,14 +52,17 @@ a {
 h1 {
   color: #f9faf8;
   margin: 0;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .jumbo-subtext {
   color: #e5e7eb;
+  font-size: 18px;
 }
 
 .placeholder-img {
-  width: 300px;
+  width: 200px;
   height: auto;
 }
 
@@ -66,6 +70,12 @@ h1 {
   margin: auto;
   text-align: center;
   padding: 32px;
+}
+
+h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .random-bottom {
@@ -77,12 +87,12 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100px;
+  width: 120px;
 }
 
 .square-img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 .section-three {
@@ -95,6 +105,12 @@ h1 {
   gap: 16px;
   padding: 64px;
   margin: auto;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 .author {
@@ -116,11 +132,17 @@ h1 {
   gap: 32px;
   padding: 16px;
   border-radius: 5px;
+  color: white;
   background-color: #3882f6;
 }
 
 .cta-box p {
   margin: 0;
+}
+
+.cta-top-line {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .cta-box button {
