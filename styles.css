@@ -1,8 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 576px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 16px;
 }
 
 ul {
@@ -15,4 +21,26 @@ ul {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 64px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.placeholder-img {
+    width: 300px;
+    height: auto;
+}
+
+.square-img {
+    width: 100px;
+    height: 100px;
 }
