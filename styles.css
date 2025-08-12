@@ -61,3 +61,15 @@ h1 {
     width: 100px;
     height: 100px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 64px 64px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+}
